@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color:teal ;
+    font-size: 3rem;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+input{
+    height: 50px;
+    width: 450px;
+    font-size: 1.5rem;
+    outline: none;
+    padding: 0 1rem;
+}
+
+input:hover{
+    box-shadow: 0 0 2px 2px teal;
+}
+
+
+button{
+    height: 55px;
+    width: 75px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: tomato;
+    color: rgb(1, 49, 49);
+    letter-spacing: 3px;
+}
+
+button:hover{
+    box-shadow: 0 0 2px 2px teal;
+}
+
+.contentDiv{
+    height: 80vh;
+    width: 700px;
+    background-color: rgba(127, 255, 212, 0.425);
+    margin-top: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.deleteButton{
+    height: 30px;
+    width: 42px;
+    background-color: rgba(131, 110, 42, 0.575);
+    display: inline-block;
+    color: rgba(245, 6, 6, 0.575);
+    font-weight: bold;
+    margin:0 20px;
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    border-radius: 50%;
+    padding-bottom:9px ;
+    
+}
+
+.finishButton{
+    height: 30px;
+    width: 42px;
+    background-color: burlywood;
+    display: inline-block;
+    color: white;
+    margin:5px 20px 20px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    color: green;
+    padding-bottom: 9px;
+}
+
+.deneme{
+    text-decoration: line-through;
+}
