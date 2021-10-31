@@ -51,5 +51,6 @@ function myClock(){
     var h2 = document.getElementById("clock");
     h2.innerHTML = gun+":" + ay + ":"+yil ;
 }
-setInterval(myClock,100);
+
+
 
