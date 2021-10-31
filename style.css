@@ -36,9 +36,9 @@ input:hover{
 
 button{
     height: 55px;
-    width: 75px;
+    width: 100px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: tomato;
     color: rgb(1, 49, 49);
     letter-spacing: 3px;
@@ -49,7 +49,7 @@ button:hover{
 }
 
 .contentDiv{
-    height: 80vh;
+    min-height: 70vh;
     width: 700px;
     background-color: rgba(127, 255, 212, 0.425);
     margin-top: 10px;
@@ -65,13 +65,12 @@ button:hover{
     display: inline-block;
     color: rgba(245, 6, 6, 0.575);
     font-weight: bold;
-    margin:0 20px;
+    margin:8px 10px 20px 0;
     cursor: pointer;
     float: right;
     text-align: center;
     border-radius: 50%;
     padding-bottom:9px ;
-    
 }
 
 .finishButton{
@@ -80,7 +79,7 @@ button:hover{
     background-color: burlywood;
     display: inline-block;
     color: white;
-    margin:5px 20px 20px;
+    margin:8px 10px 0 10px ;
     cursor: pointer;
     float: left;
     text-align: center;
@@ -91,4 +90,14 @@ button:hover{
 
 .deneme{
     text-decoration: line-through;
+    background-color: green;
 }
+
+p{
+    background-color: rgba(233, 233, 12, 0.692);
+    height: 3.5rem;
+    box-sizing: border-box;
+    margin:1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+

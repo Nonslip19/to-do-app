@@ -6,6 +6,8 @@ const contentDiv = document.querySelector(".contentDiv");
 var count = 0;
 button.addEventListener("click", go);
 
+input.value.sty
+
 input.addEventListener("keyup", function(e) {
     if(e.keyCode == "13"){
         go();
@@ -23,7 +25,6 @@ function go(){
         deleteButton.innerText = "X"
         finishButton.innerText = "✔"
         paragraf.innerText =count + ") " + input.value;
-        contentDiv.appendChild(paragraf);
         contentDiv.appendChild(paragraf);
         paragraf.appendChild(deleteButton);
         paragraf.prepend(finishButton);
