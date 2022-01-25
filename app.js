@@ -6,7 +6,7 @@ const contentDiv = document.querySelector(".contentDiv");
 var count = 0;
 button.addEventListener("click", go);
 
-input.value.sty
+
 
 input.addEventListener("keyup", function(e) {
     if(e.keyCode == "13"){
@@ -49,8 +49,8 @@ function myClock(){
     var ay = tarih.getMonth();
     var gun = tarih.getDate();
     var h2 = document.getElementById("clock");
-    h2.innerHTML = gun+":" + ay + ":"+yil ;
+    h2.innerHTML = `${gun}/${ay+1}/${yil}` ;
 }
-setInterval(myClock,1000);
+setInterval(myClock,10000);
 
 

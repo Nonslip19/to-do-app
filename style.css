@@ -41,7 +41,7 @@ button{
     font-weight: bold;
     font-size: 1.3rem;
     background-color: tomato;
-    color: rgb(1, 49, 49);
+    color: rgb(255, 255, 255);
     letter-spacing: 3px;
 }
 
@@ -51,7 +51,7 @@ button:hover{
 }
 
 .contentDiv{
-    min-height: 70vh;
+    min-height: 0;
     width: 700px;
     background-color: rgba(127, 255, 212, 0.425);
     margin-top: 10px;
@@ -63,11 +63,12 @@ button:hover{
 .deleteButton{
     height: 30px;
     width: 42px;
-    background-color: rgba(131, 110, 42, 0.575);
+    border: 1px solid burlywood;
+    /* background-color: rgba(131, 110, 42, 0.575); */
     display: inline-block;
     color: rgba(245, 6, 6, 0.575);
     font-weight: bold;
-    margin:8px 10px 20px 0;
+    margin:5px 5px 0 0;
     cursor: pointer;
     float: right;
     text-align: center;
@@ -78,10 +79,11 @@ button:hover{
 .finishButton{
     height: 30px;
     width: 42px;
-    background-color: burlywood;
+    border: 1px solid burlywood;
+    /* background-color: burlywood; */
     display: inline-block;
     color: white;
-    margin:8px 10px 0 10px ;
+    margin:5px 5px 0 5px ;
     cursor: pointer;
     float: left;
     text-align: center;
@@ -90,16 +92,17 @@ button:hover{
     padding-bottom: 9px;
 }
 
+
 .deneme{
     text-decoration: line-through;
-    opacity: 0.7;
+    color: green;
 }
 
 p{
-    background-color: rgb(250, 250, 136);
+    background-color: rgb(252, 252, 235);
     height: 3.5rem;
     box-sizing: border-box;
-    margin:0.7rem 0.5rem;
+    margin:0.5rem 0.5rem;
     border-radius: 0.5rem;
 }
 
