@@ -88,7 +88,7 @@ button:hover{
     float: left;
     text-align: center;
     border-radius: 50%;
-    color: green;
+    color: green; 
     padding-bottom: 9px;
 }
 
